@@ -5,9 +5,8 @@
 ## Table of Contents
   * [Description](#description)
   * [Used Languages](#used-languages)
-  * [Requirements](#requirement)
   * [How it works?](#works)
-
+  * [Rules](#rules)
 <br><br><br>
   
 <a name="description"></a>
@@ -26,11 +25,27 @@
 
 <a name="works"></a>
 ## 🔎 How it works?
-> Based on the <a href="https://term.ooo">termo website</a>, this project recreates the idea of ​​the game that consists of guessing a 5-letter word in 10 attempts.
-> The code reads the text file that has words, randomly chooses a word and the user through the console must hit the random word.
-> The game ends when the player guess the random work.
+* Based on the <a href="https://term.ooo">termo website</a>, this project recreates the idea of ​​the game that consists of guessing a 5-letter word in 10 attempts.
+* The code reads the text file that has words, randomly chooses a word and the user through the console must hit the random word.
+* The game ends when the player guess the random work.
 
 
-<a name="works"></a>
-## 🔎 Rules?
-> Based on the <a href="https://term.ooo">termo website</a>, this project recreates the idea of ​​the game that consists of guessing a 5-letter word in 10 attempts.
+<br><br><br>
+
+
+<a name="rules"></a>
+## ⚙ Rules
+1. Discover the right word in 6 tries.
+2. After each attempt, the tiles show how close you are to the solution.
+
+
+<br><br><br>
+
+
+<a name="comands"></a>
+## 💻 Comands
+* Install colored fonts for console:
+```
+pip install termcolor
+```
+
